@@ -1,0 +1,135 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #131c2f;
+  color: #eee;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.container {
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 24px;
+}
+
+nav {
+  height: 150px;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+}
+
+nav a {
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  color: #fff;
+  scale: 1.05;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #eee;
+  color: black;
+  padding: 2px 4px;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+  width: max-content;
+}
+
+button:hover {
+  background-color: #555;
+  color: #fff;
+  scale: 1.05;
+}
+
+.content {
+  font-weight: 300;
+}
+
+.content h1 {
+  display: flex;
+  align-items: center;
+  font-size: 32px;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.notPremium h1 {
+  width: 500px;
+}
+
+.notPremium a {
+  border-bottom: 1px solid #eee;
+  padding: 2px 0px;
+  font-size: 20px;
+  transition: all 0.2s ease;
+}
+
+.notPremium a:hover {
+  font-weight: 400;
+}
+
+ul {
+  list-style: inside;
+}
+
+li {
+  font-size: 20px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+li:hover {
+  scale: 1.02;
+}
+
+.profile p {
+  margin-bottom: 20px;
+}
+
+.profile form {
+  margin: 20px 0px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+input {
+  padding: 5px 10px;
+  border-radius: 3px;
+  color: black;
+  font-size: 20px;
+}
+
+b {
+  font-weight: bold;
+}
+
+.login form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.login p {
+  color: coral;
+  font-size: 18px;
+}
